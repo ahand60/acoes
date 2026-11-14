@@ -1,0 +1,19 @@
+# Editais, Documentos e Relatórios.
+# Itens sem "link" aparecem como texto simples (antes abriam um alert()).
+# Para ativar, adicione a linha:  link: https://...
+
+- icone: 📋
+  titulo: Edital 27/2026
+  link: https://www.ifsp.edu.br/images/2026/08-agosto/Edital_mobilidade_out_superior_-_autocusteio_-_2027-1.pdf
+- icone: 📋
+  titulo: Edital 52/2024
+- icone: 📋
+  titulo: Edital 340/2023
+- icone: 📋
+  titulo: Edital 339/2023
+- icone: 📊
+  titulo: Relatório 2024
+- icone: 📄
+  titulo: MoU Pascual Bravo
+- icone: 📈
+  titulo: Metas 2025-2028
