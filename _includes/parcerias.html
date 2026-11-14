@@ -6,12 +6,13 @@
 
     {% for p in site.data.parcerias %}
     <span class="ri-parceria-item">
+
       {% if p.pais %}
       <img class="ri-bandeira"
-           src="https://flagcdn.com/w20/{{ p.pais }}.png"
-           srcset="https://flagcdn.com/w40/{{ p.pais }}.png 2x"
+           src="img/bandeiras/{{ p.pais }}.png"
+           width="20"
            alt="">
-      {% else %}
+      {% else %}      
       {{ p.icone }}
       {% endif %}
       {{ p.nome }}
