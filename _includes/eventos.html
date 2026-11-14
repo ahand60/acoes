@@ -16,8 +16,8 @@
           {{ e.botao_texto }}
         </a>
       </div>
-      {% if e.imagem %}
       <div class="ri-evento-miniatura">
+        {% if e.imagem %}
         <a href="{{ e.botao_link }}" target="_blank" rel="noopener">
           <img src="{{ e.imagem }}" alt="{{ e.imagem_alt }}">
         </a>
