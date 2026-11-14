@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ações Internacionais do IFSP Campus Guarulhos.">
+  <title>Relações Internacionais — IFSP Guarulhos</title>
+
+  <!-- Folhas de estilo organizadas por assunto -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/campi-e-cards.css">
+  <link rel="stylesheet" href="css/integrantes.css">
+
+  <!-- JavaScript do modal da comissão -->
+  <script src="js/comissao.js" defer></script>
+</head>
+<body>
+
+  <!-- =========================================================
+       1. BANNER VISUAL DOS CAMPI E LOGO
+  ========================================================== -->
+  <header class="ifsp-campi-banner" aria-label="Campi do IFSP">
+    <div class="ifsp-campi-esquerda">
+      <div class="ifsp-campus-foto ifsp-campus-guarulhos">
+        <span class="campus-nome">Campus Guarulhos</span>
+      </div>
+    </div>
+
+    <a
+      class="ifsp-logo-central"
+      href="https://www.ifsp.edu.br/index.php/component/content/article/167-arinter/arinter-destaques/3294-english-version-version-en-espanhol"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Conheça o Instituto Federal de São Paulo">
+      <img src="img/LogoIF.png" alt="Instituto Federal de São Paulo">
+    </a>
+
+    <div class="ifsp-campi-direita">
+      <div class="ifsp-campus-foto ifsp-campus-direito">
+      </div>
+      <div class="ifsp-campus-foto ifsp-campus-direito">
+      </div>
+      <div class="ifsp-campus-foto ifsp-campus-direito">
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- =======================================================
+         2. APRESENTAÇÃO, MISSÃO, CONTATO E COMISSÃO
+    ======================================================== -->
+    <section class="ri-container" aria-labelledby="titulo-pagina">
+      <header class="ri-header">
+        <h1 id="titulo-pagina">Relações Internacionais</h1>
+        <p class="subtitle">Coordenadoria de Ações Internacionais — IFSP Campus Guarulhos</p>
+        <span class="badge">Atualizado em 2026</span>
+      </header>
+
+      <div class="ri-grid">
+        <article class="ri-card">
+          <div class="icon" aria-hidden="true">🎯</div>
+          <h2>Nossa missão</h2>
+          <p>Promover a internacionalização do ensino, da pesquisa e da extensão no IFSP Guarulhos, conectando estudantes, docentes e técnicos administrativos a instituições parceiras ao redor do mundo e fortalecendo a formação acadêmica e o intercâmbio cultural.</p>
+          <p class="citacao-missao">“A internacionalização da educação superior é um meio para melhorar a qualidade da educação e da pesquisa.” — Jane Knight</p>
+        </article>
+
+        <article class="ri-card contato">
+          <div class="icon" aria-hidden="true">📬</div>
+          <h2>Contato</h2>
+          <div class="contato-item">
+            <strong aria-hidden="true">📧</strong>
+            <a href="mailto:acoesinternacionais@ifsp.edu.br">acoesinternacionais@ifsp.edu.br</a>
+          </div>
+          <div class="contato-item">
+            <strong aria-hidden="true">📞</strong>
+            <a href="tel:+5513997188798">(13) 99718-8798</a>
+          </div>
+          <div class="contato-item">
+            <strong aria-hidden="true">👤</strong>
+            <span>Profa. Me. Elizabete Rubliauskas Giachetti<br>
+              <small>Representante da Coordenadoria de Ações Internacionais</small>
+            </span>
+          </div>
+        </article>
+
+        <article class="ri-card">
+          <div class="icon" aria-hidden="true">👥</div>
+          <h2>Comissão de Ações Internacionais</h2>
+          <p>A Comissão de Ações Internacionais do IFSP Guarulhos coordena e impulsiona iniciativas de cooperação acadêmica internacional, mobilidade estudantil e docente, parcerias institucionais e projetos conjuntos de pesquisa.</p>
+          <p class="total-integrantes">Comissão composta por <strong>14 integrantes</strong>.</p>
+          <button class="botao-integrantes" type="button" id="abrirComissao"
+                  aria-haspopup="dialog" aria-controls="modalComissao">
+            Ver integrantes
+          </button>
+        </article>
+      </div>
+    </section>
+
+    <!-- =======================================================
+         3. MODAL COM A LISTA DE INTEGRANTES
+    ======================================================== -->
+    <div class="modal-comissao" id="modalComissao" role="dialog"
+         aria-modal="true" aria-labelledby="tituloModalComissao" hidden>
+      <div class="modal-conteudo">
+        <button class="fechar-modal" type="button" id="fecharComissao"
+                aria-label="Fechar lista de integrantes">&times;</button>
+        <h2 id="tituloModalComissao">Comissão de Ações Internacionais</h2>
+        <p class="descricao-modal">Integrantes da Comissão de Ações Internacionais do IFSP Campus Guarulhos.</p>
+
+        <div class="lista-integrantes">
+          <div class="integrante"><strong>Elizabete Rubliauskas Giachetti</strong><span>Presidente — SIAPE 2319918</span></div>
+          <div class="integrante"><strong>Armando Handaya</strong><span>Membro docente — SIAPE 2663116</span></div>
+          <div class="integrante"><strong>Cristiano Alves Pessoa</strong><span>Membro docente — SIAPE 1680807</span></div>
+          <div class="integrante"><strong>Marcelo Kenji Shibuya</strong><span>Membro docente — SIAPE 1919690</span></div>
+          <div class="integrante"><strong>Wilson Carlos Junior</strong><span>Membro docente — SIAPE 1914918</span></div>
+          <div class="integrante"><strong>Breno Doimo</strong><span>Membro discente — Gu3028046</span></div>
+          <div class="integrante"><strong>Maria Eduarda Alves Selvatti</strong><span>Membro discente — Gu3046109</span></div>
+          <div class="integrante"><strong>Sabrina Filizola Teixeira</strong><span>Membro discente — Gu3056368</span></div>
+          <div class="integrante"><strong>Milena Aragon Silva</strong><span>Membro discente — Gu305604x</span></div>
+          <div class="integrante"><strong>Gustavo Santos Araújo</strong><span>Membro discente — Gu3055558</span></div>
+          <div class="integrante"><strong>Matheus Souza Galvão</strong><span>Membro discente — Gu3082938</span></div>
+          <div class="integrante"><strong>Thiago Pinheiro Paravani</strong><span>Membro discente — Gu3079678</span></div>
+          <div class="integrante"><strong>Vanesio Nicandro Té</strong><span>Membro discente — Gu3080978</span></div>
+          <div class="integrante"><strong>Vitor Hume Silva</strong><span>Membro discente — Gu3080579</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- =======================================================
+         4. DESTAQUE DA MISSÃO INTERNACIONAL BRASIL–COLÔMBIA
+    ======================================================== -->
+    <section class="ri-banner-missao" aria-labelledby="titulo-missao">
+      <div class="ri-mosaico-mini">
+        <div class="fotos-wrapper" aria-label="Fotos da missão internacional">
+        </div>
+        <div class="texto-missao">
+          <h2 id="titulo-missao">Missão Internacional Brasil–Colômbia 2025</h2>
+          <p>IFSP Guarulhos e Institución Universitaria Pascual Bravo, Medellín. Novembro de 2025 — cooperação acadêmica e cultural que transcende fronteiras.</p>
+        </div>
+        <a class="btn-galeria" href="https://www.flickr.com/photos/204466937@N07/albums/"
+           target="_blank" rel="noopener noreferrer">Álbum completo de fotos e vídeos</a>
+      </div>
+    </section>
+
+    <!-- =======================================================
+         5. ATIVIDADES REALIZADAS E EM ANDAMENTO
+    ======================================================== -->
+    <section class="ri-card-full" aria-labelledby="titulo-atividades">
+      <h2 id="titulo-atividades">Atividades realizadas e em andamento</h2>
+      <div class="ri-timeline">
+        <article class="ri-timeline-item">
+          <span class="data">Setembro de 2026</span>
+          <p><strong>Campus Guarulhos no COBENGE 2026</strong> — Entre 14 e 17 de setembro, o campus esteve representado no Congresso Brasileiro de Educação em Engenharia, realizado na PUC Minas, em Belo Horizonte. Participaram presencialmente os estudantes Breno Cordeiro Doimo e Gustavo Araújo e o professor Dr. Marcelo Kenji Shibuya. Foram apresentados trabalhos sobre a missão internacional com a Pascual Bravo e sobre um simulador solar articulado de baixo custo.</p>
+          <p class="ri-links">
+            <a class="ri-button" href="https://gru.ifsp.edu.br/component/content/article/17-ultimas-noticias/2439-campus-guarulhos-marca-presen%C3%A7a-no-cobenge-2026-em-belo-horizonte.html" target="_blank" rel="noopener noreferrer">Notícia no IFSP Guarulhos</a>
+            <a class="ri-button" href="documentos/cobenge-2026.html">Detalhes dos trabalhos</a>
+            <a class="ri-button" href="https://www.flickr.com/photos/204466937@N07/albums/" target="_blank" rel="noopener noreferrer">Fotos no Flickr</a>
+          </p>
+        </article>
+
+        <article class="ri-timeline-item">
+          <span class="data">Maio de 2026</span>
+          <p><strong>Relato de experiência com a Pascual Bravo</strong> — A participação foi registrada em álbum de fotos e vídeos no Flickr.</p>
+          <p class="ri-links">
+            <a class="ri-button" href="https://www.flickr.com/photos/204466937@N07/albums/72177720333559449/" target="_blank" rel="noopener noreferrer">Fotos e vídeos no Flickr</a>
+            <a class="ri-button" href="documentos/relato-pascual-bravo-maio-2026.html">Sobre o registro</a>
+          </p>
+        </article>
+
+        <article class="ri-timeline-item">
+          <span class="data">Novembro de 2025</span>
+          <p><strong>Missão Internacional Brasil–Colômbia</strong> — A delegação da Institución Universitaria Pascual Bravo, de Medellín, participou de atividades no IFSP Campus Guarulhos. A programação incluiu cerimônia de abertura, visitas técnicas, seminários de pesquisa e atividades culturais.</p>
+          <p class="ri-links">
+            <a class="ri-button" href="documentos/missao-brasil-colombia-2025.html">Conheça a missão</a>
+            <a class="ri-button" href="https://www.flickr.com/photos/204466937@N07/albums/" target="_blank" rel="noopener noreferrer">Fotos e vídeos no Flickr</a>
+          </p>
+        </article>
+
+        <article class="ri-timeline-item">
+          <span class="data">Julho de 2025</span>
+          <p><strong>Missão oficial em Barranquilla, Colômbia</strong> — Representantes da SMRI-SP participaram do Fórum de Desenvolvimento Local da OCDE.</p>
+        </article>
+
+        <article class="ri-timeline-item">
+          <span class="data">2025</span>
+          <p><strong>Mobilidade internacional para o Chile</strong> — Estudantes de cursos técnicos integrados ao ensino médio foram selecionados para o programa de mobilidade para o Chile, pelos editais ARINTER nº 32/2025 e local nº 25/2025. Entre os selecionados, três eram estudantes do Campus Guarulhos.</p>
+        </article>
+
+        <article class="ri-timeline-item">
+          <span class="data">2024</span>
+          <p><strong>Mobilidade internacional para Portugal</strong> — Onze estudantes de cursos técnicos integrados ao ensino médio foram selecionados pelo Edital nº 52/2024 para participar de um programa de mobilidade em instituições parceiras na cidade do Porto. Entre os selecionados, uma estudante era do Campus Guarulhos.</p>
+          <p>No mesmo ano, o campus promoveu a aproximação entre pesquisadores do IFSP e da Institución Universitaria Pascual Bravo, com o levantamento de interesses de pesquisa, a formação de grupos temáticos e a realização de reuniões virtuais.</p>
+          <p class="ri-links"><a class="ri-button" href="documentos/historico-internacionalizacao-2021-2024.html">Histórico de 2021 a 2024</a></p>
+        </article>
+
+        <article class="ri-timeline-item">
+          <span class="data">2023</span>
+          <p><strong>Seminário Internacional de Pesquisa</strong> — Pesquisadores do IFSP Campus Guarulhos e da Institución Universitaria Pascual Bravo apresentaram trabalhos durante a Semana Nacional de Tecnologia, promovendo o diálogo e a aproximação entre as instituições.</p>
+          <p class="ri-links"><a class="ri-button" href="documentos/historico-internacionalizacao-2021-2024.html">Saiba mais sobre o histórico</a></p>
+        </article>
+      </div>
+    </section>
+
+    <!-- =======================================================
+         6. CONTINUAÇÃO DA PÁGINA
+         Acrescente aqui as demais seções do seu conteúdo original,
+         mantendo cada assunto em uma seção própria.
+    ======================================================== -->
+  </main>
+
+  <!-- =========================================================
+       7. RODAPÉ
+  ========================================================== -->
+  <footer class="ri-footer">
+    <p>IFSP Campus Guarulhos — Coordenadoria de Ações Internacionais</p>
+  </footer>
+</body>
+</html>
