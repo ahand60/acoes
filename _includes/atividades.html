@@ -1,0 +1,28 @@
+<!-- Atividades (dados em _data/atividades.yml) -->
+<div class="ri-card-full">
+  <h3>Atividades Realizadas e Em Andamento</h3>
+
+  <div class="ri-timeline">
+    {% for a in site.data.atividades %}
+    <div class="ri-timeline-item">
+      <span class="data">{{ a.data }}</span>
+
+      {% for p in a.paragrafos %}
+      <p>
+        {% if forloop.first and a.titulo %}<strong>{{ a.titulo }}</strong> — {% endif %}{{ p }}
+      </p>
+      {% endfor %}
+
+      {% if a.links %}
+      <p class="ri-links">
+        {% for l in a.links %}
+        <a class="ri-button" href="{{ l.url }}"{% if l.externo %} target="_blank" rel="noopener"{% endif %}>
+          {{ l.texto }}
+        </a>
+        {% endfor %}
+      </p>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+</div>
