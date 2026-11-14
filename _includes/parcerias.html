@@ -3,9 +3,21 @@
   <h3>Parcerias Internacionais</h3>
   <p>O IFSP mantém acordos e parcerias com instituições de ensino e pesquisa no exterior.</p>
   <div class="ri-parcerias ri-parcerias--topo">
+
     {% for p in site.data.parcerias %}
-    <span class="ri-parceria-item">{{ p.icone }} {{ p.nome }}</span>
+    <span class="ri-parceria-item">
+      {% if p.pais %}
+      <img class="ri-bandeira"
+           src="https://flagcdn.com/w20/{{ p.pais }}.png"
+           srcset="https://flagcdn.com/w40/{{ p.pais }}.png 2x"
+           alt="">
+      {% else %}
+      {{ p.icone }}
+      {% endif %}
+      {{ p.nome }}
+    </span>
     {% endfor %}
+
   </div>
   <p class="ri-parcerias-nota">
     <strong>Memorando de Entendimento</strong> com Pascual Bravo, viabilizado pelo Prof. Dr. Wilson Carlos da Silva Junior.
