@@ -23,7 +23,7 @@
   padding: 40px 36px 32px;
   margin-bottom: 80px;
   position: relative;
-  overflow: visible;
+  overflow: visible !important;
   box-shadow: 0 8px 32px rgba(0, 51, 102, 0.25);
 }
 
@@ -81,9 +81,10 @@
   width: 120px;
   height: 120px;
   object-fit: contain;
-  right: 1.5cm;
+  right: 15%;
   bottom: -56px;
-  z-index: 10;
+  z-index: 100;
+  display: block;
 }
 
 
