@@ -15,16 +15,19 @@
   padding: 20px 16px;
 }
 
+
+/* Banner */
 .ri-header {
   background: linear-gradient(135deg, #003366 0%, #0055a5 50%, #0077be 100%);
   border-radius: 16px;
   padding: 40px 36px 32px;
-  margin-bottom: 32px;
+  margin-bottom: 80px;
   position: relative;
-  overflow: hidden;
+  overflow: visible;
   box-shadow: 0 8px 32px rgba(0, 51, 102, 0.25);
 }
 
+/* Círculo decorativo */
 .ri-header::after {
   content: "";
   position: absolute;
@@ -34,8 +37,10 @@
   height: 180px;
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.05);
+  pointer-events: none;
 }
 
+/* Título */
 .ri-header h1 {
   color: #ffffff;
   font-size: 2rem;
@@ -46,6 +51,7 @@
   z-index: 1;
 }
 
+/* Subtítulo */
 .ri-header .subtitle {
   color: rgba(255, 255, 255, 0.9);
   font-size: 1rem;
@@ -54,6 +60,7 @@
   z-index: 1;
 }
 
+/* Identificação da atualização */
 .ri-header .badge {
   display: inline-block;
   background: rgba(255, 255, 255, 0.18);
@@ -68,20 +75,17 @@
   z-index: 1;
 }
 
-.banner {
-    position: relative;
-    overflow: visible;
+/* Logotipo pendurado */
+.ri-header .banner-logo {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  right: 1.5cm;
+  bottom: -56px;
+  z-index: 10;
 }
 
-.banner-logo {
-    position: absolute;
-    width: 120px;
-    height: 120px;
-    object-fit: contain;
-    right: 13%;
-    bottom: -56px;
-    z-index: 10;
-}
 
 
 /* ===== BANNER MISSÃO ===== */
