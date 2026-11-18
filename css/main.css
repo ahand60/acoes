@@ -1,3 +1,4 @@
+```css
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
 
 * {
@@ -19,9 +20,9 @@
   background: linear-gradient(135deg, #003366 0%, #0055a5 50%, #0077be 100%);
   border-radius: 16px;
   padding: 40px 36px 32px;
-  margin-bottom: 100px;
+  margin-bottom: 32px;
   position: relative;
-  overflow: visible;
+  overflow: hidden;
   box-shadow: 0 8px 32px rgba(0, 51, 102, 0.25);
 }
 
@@ -66,23 +67,6 @@
   backdrop-filter: blur(4px);
   position: relative;
   z-index: 1;
-}
-
-/* Logo centralizado verticalmente na borda inferior do banner */
-.ri-logo {
-  position: absolute;
-  z-index: 2;
-  right: 2cm;
-  bottom: 0;
-  transform: translateY(50%);
-
-  display: block;
-  width: 20%;
-  max-width: 120px;
-  height: auto;
-  padding: 0;
-  background: transparent;
-  border-radius: 0;
 }
 
 /* ===== BANNER MISSÃO ===== */
@@ -556,3 +540,4 @@
   background-color: #005b91;
   text-decoration: underline !important;
 }
+```
