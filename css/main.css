@@ -68,6 +68,22 @@
   z-index: 1;
 }
 
+.banner {
+    position: relative;
+    overflow: visible;
+}
+
+.banner-logo {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    right: 13%;
+    bottom: -56px;
+    z-index: 10;
+}
+
+
 /* ===== BANNER MISSÃO ===== */
 .ri-banner-missao {
   border-radius: 0;
