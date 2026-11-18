@@ -21,7 +21,7 @@
     padding: 40px 36px 32px;
     margin-bottom: 32px;
     position: relative;
-    overflow: hidden;
+    overflow: visible;
     box-shadow: 0 8px 32px rgba(0,51,102,0.25);
   }
 
@@ -67,6 +67,24 @@
     position: relative;
     z-index: 1;
   }
+
+.ri-logo {
+  position: absolute;
+  z-index: 2;
+  right: 2cm;
+  bottom: 0;
+  transform: translateY(50%);
+
+  width: 112px;
+  height: 112px;
+  object-fit: contain;
+  box-sizing: border-box;
+  padding: 8px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+}
+
 
   /* ===== BANNER MISSÃO ===== */
   .ri-banner-missao {
